@@ -5,7 +5,7 @@
 **CarND PID Control Project**
 
 The goals / steps of this project are the following:
-* Implementa PID Controller to control car in simulator
+* Implement a PID Controller to control car in simulator
 * Test on simulator that the car stays on track
 * Summarize the results with a written report
 
@@ -31,7 +31,7 @@ and receives the steering angle and the throttle.
 
 #### 3. Accuracy
 
-The PID Controller parameters were choosen on the steps first the twiddle algorithm was used to get approximate coefficients  then these coefficients were tuned manually. The final coefficients were Kp=0.13, Ki=0, Kd=2.3
+The PID Controller parameters were choosen on two steps, first the twiddle algorithm was used to get approximate coefficients,  then these coefficients were tuned manually. The final coefficients were Kp=0.13, Ki=0, Kd=2.3
 
 Accuracy was tested using Udacity simulator
 
