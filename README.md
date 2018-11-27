@@ -28,6 +28,12 @@ In this project the C++ was used to program. The project goal is to drive a car 
 The simulator measures cross-track error between the lateral position of the car and the center of the lane and sends it to PID Controller
 and receives the steering angle and the throttle.
 
+#### 2. Description of effect each of the  P, I, D compontents in implementation
+
+* The proportional P part of controller tries to drive car along the center line like sinusoid and if using only the P coefficient very   quickly the amplitude is geting higher and the car go out of track.
+* The integral I part of controller tries to drive car in circles. In our case the I controller is equal to 0
+* The differential D Part of controller tries to drive car along the curvature of track and it helps to smooth the P controller center     line overshooting
+
 
 #### 3. Accuracy
 
